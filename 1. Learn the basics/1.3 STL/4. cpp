@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+using namespace std;
+void Hell(int n)
+{
+    string arr= HelloWorld;
+    for(int i=0;i< n-1;i++)
+    {
+        cout << arr[i] ;
+    }
+
+    for(int i=n ; i<10 ;i++)
+    {
+        cout << arr[i];
+    }
+
+}
+int main()
+{
+    int n;
+    cin >> n; 
+    Hell(n);
+    return 0;
+}
