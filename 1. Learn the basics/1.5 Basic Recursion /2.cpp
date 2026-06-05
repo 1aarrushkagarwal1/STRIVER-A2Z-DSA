@@ -8,7 +8,7 @@ void f(int i,int n)
     }
     else
     {
-        cout << "Raj"<< endl;
+        cout << i << " ";
         f(i+1,n);
     }
 }
