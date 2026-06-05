@@ -23,4 +23,4 @@ int main()
     mine(1,n);  
     f(1,n);
 return 0;
-}
+} 
