@@ -14,13 +14,20 @@ void mine(int i,int n)
 }
 void f(int i,int n)
 {
-    ;
+   if(i<1) 
+   {
+    return ;
+   }
+   cout << i << " ";
+   f(i-1,n);
 }
+
 int main()
 {
     int n ;
     cin >> n;
-    mine(1,n);  
-    f(1,n);
+    mine(1,n);
+    cout << endl ;
+    f(n,n);
 return 0;
 } 
